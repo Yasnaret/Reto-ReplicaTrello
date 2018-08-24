@@ -1,0 +1,35 @@
+{
+  "name": "trello-clone",
+  "version": "1.0.0",
+  "description": "Trello Clone y Ambiente de Desarrollo",
+  "main": "",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yasnaret/Reto-ReplicaTrello.git"
+  },
+  "keywords": [
+    "test",
+    "development"
+  ],
+  "author": "Yasnaret Soto Almonacid",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Yasnaret/Reto-ReplicaTrello/issues"
+  },
+  "homepage": "https://github.com/Yasnaret/Reto-ReplicaTrello#readme",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "chai-dom": "^1.8.0",
+    "mocha": "^5.2.0"
+  },
+  "dependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0"
+  }
+}

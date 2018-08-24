@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    <link rel="stylesheet" href="src/css/style.css">
+</head>
+<body>
+
+<div class="container-fluid" id="container">
+    <!-- diseño de pagina responsive -->
+    <div id="header">
+        <a id="headerlogo"></a>
+        <div id="header-btnIzq">
+            <span class="header-btnIzq icon">
+                <i id="lupa" class="fab fa-trello"></i>
+            </span>
+            <span class="header-btnIzq d-none d-lg-block">Tableros</span>
+        </div>
+        <div class="header-search">
+             <input type="text" id="headerInput"class="d-none d-lg-blockinfo" >   
+            <span class="spanSearch">
+                <i class="fas fa-search"></i>
+            </span>
+        </div>
+        <div class="headerleft">
+            <a href="#" class="header-more">
+                <i class="fas fa-plus"></i>
+            </a>
+            <span class=" header-more  d-none d-lg-blockinfo">
+               <a href="#">
+                <i class="fas fa-info-circle"></i>
+            </a>  
+            </span>
+           
+            <a href="#" class="header-more red">
+                <i class="far fa-bell"></i>
+            </a>
+            <a href="#" class="">
+                <img id ="imgAvatar"src="assets/img/logo yas.png" alt="logo avatar">
+            </a>
+
+        </div>
+    </div>
+    <div class='board-header'>
+        <div id="space1">
+            <a class='title-header' id='reto'>Tablero-Retos de Codigo</a>
+            <span class="title-header star">
+                <i class="far fa-star"></i>
+            </span>
+            <span class='title-header'>
+                <i class="fa fa-lock" aria-hidden="true"></i>
+                <h5 class='title-header'>Privado</h5>
+            </span>
+        </div>
+
+        <div id="space2">
+            <a class='title-header left' href="#"> ...Mostrar Menú</a>
+        </div>
+    </div>
+    <!-- container listas..... -->
+    <div class="row" id="containerNewList">
+        <button class=" add-list-button" onclick="addList()" id="btnAddList">Add a list...</button>
+    </div>
+    <!-- fin container listas  -->
+    
+</div>
+
+
+
+
+    <!-- scripts bootstrap  -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="src/js/main.js"></script>
+</body>
+</html>
